@@ -1,5 +1,5 @@
 #whatever version that suits you
-FROM python:3.6
+FROM python:3.8
 FROM rasa/rasa-sdk:3.1.2
 
 #define the working directory of Docker container
