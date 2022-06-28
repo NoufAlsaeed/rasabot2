@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.8
 
 FROM rasa/rasa:3.1.1
 WORKDIR  '/app'
