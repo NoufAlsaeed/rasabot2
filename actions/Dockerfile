@@ -20,8 +20,8 @@ RUN python -m pip install --upgrade pip
 
 #install dependencies inside Docker container
  
-#RUN pip install -r requirements-actions.txt 
-USER 1001
+RUN pip install -r requirements-actions.txt 
+# USER 1001
 
 # FROM rasa/rasa-sdk:latest
 
@@ -31,7 +31,7 @@ USER 1001
 
 # RUN pip3 install recognizers-text-suite
 
-# # CMD [ "rasa","run","actions"]
+CMD [ "rasa","run","actions"]
 
 # # Switch back to a non-root user
 # USER 1001
