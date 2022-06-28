@@ -21,7 +21,7 @@ RUN python -m pip install --upgrade pip
 #install dependencies inside Docker container
  
 RUN pip install -r requirements-actions.txt 
-# USER 1001
+USER 1001
 
 # FROM rasa/rasa-sdk:latest
 
